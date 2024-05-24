@@ -1,0 +1,44 @@
+Assignment 1.
+1. first off all create file using touch command.
+    touch bhanu
+2. give the permission this file using chmod command.
+   chmod 764 bhanu
+3. using the linux basic command:-
+   A. ls = using for show permissions for file and directory. 
+  ls -l = using for detaied information
+   ls -a = using for list hidden file.
+  B. cd=  using for change directory
+   C. mkdir = using for create a new directory
+   D. rm = remove files and directories
+          rm file name
+          rm -r directory name
+   E. touch = create an empty file:
+         touch filename
+4. Navigating through directories:
+     cd ~ = navigate to the home directory
+     cd / = navigate to the root directory
+     cd /usr/local = navigate to a specific directory 
+     cd .. = navigate up one directory level
+     cd – = navigate to the previous directory
+
+  5. Listing file contents:
+   ls = list contents of the current directory
+   ls -l =  list contents with detailed information
+   ls -a = list all files including hidden files
+   ls -lh = list contents with human-readable file       size 
+   ls /etc  = list contents of a specific directory 
+
+6. Moving files to different locations
+-mv /path/to/source/file.txt /path/to/destination/ = move a file toa different directory
+-mv oldname.txt newname.txt = rename a file
+-mv /path/to/source/oldname.txt /path/to/destination/newname.txt = move and rename a file at the same time
+-mv file1.txt file2.txt /path/to/destination/= move multiple files to  a directory
+
+7. creating a new user and group:
+    - useradd bhanu
+- groupadd bhanu= using for create a group 
+- passwd bhanu = using for set password 
+ 
+- chmod 770 /home/bhanu  =using for set permission
+- usermod -aG bhanu bhanu = user bhanu add a additional group bhanu
+- userdel bhanu =  using for delete a user name bhanu
